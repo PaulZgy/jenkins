@@ -4,7 +4,7 @@ services:
     build:
       context: ./
       dockerfile: Dockerfile
-    image: test:v3.0.0
+    image: test:v4.0.0
     container_name: test
     ports:
       - 8081:8080
