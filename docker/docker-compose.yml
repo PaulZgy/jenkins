@@ -7,4 +7,4 @@ services:
     image: test:v2.0.0
     container_name: test
     ports:
-    - 8081:8080
+      - 8081:8080
